@@ -1,5 +1,5 @@
 import pyttsx3
-book=open(r"C:/Users/Lina-pc/OneDrive/Bureau/bureau/work/Book.txt")
+book=open(r"file path")
 book_text=book.readlines()
 engine = pyttsx3.init()
 for i in book_text:
